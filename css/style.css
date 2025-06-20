@@ -1,0 +1,146 @@
+/* Define a fonte padrão, largura centralizada e margem automática para centralizar o site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+/* Estilização do cabeçalho com fundo escuro e texto branco centralizado */
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Título da loja com fonte serifada e ajustes para quebra automática */
+header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+    white-space: normal;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+/* Container de navegação centralizado e com possibilidade de quebrar linhas */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+/* Lista de navegação horizontal sem marcadores */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+/* Links do menu com cor branca e sem sublinhado */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Conteúdo principal com padding e texto justificado */
+main {
+    padding: 1em;
+    text-align: justify;
+}
+
+/* Imagens dentro do main centralizadas e com largura de 70% */
+main img {
+    width: 70%;
+    margin: 30px auto;
+    display: block;
+}
+
+/* Lista de serviços com layout em coluna e alinhamento à esquerda */
+.servico {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Cada item da lista de serviços aparece com ícone e texto ao lado */
+.servico li {
+    display: flex;
+    align-items: center;
+}
+
+/* Ícones dos serviços com tamanho padrão e espaçamento à direita */
+.servico img {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5em;
+}
+
+/* Lista de redes sociais com layout em coluna */
+.redes-sociais {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Links das redes sociais estilizados com ícone e texto lado a lado */
+.redes-sociais a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Tamanho dos ícones das redes sociais */
+.redes-sociais img {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5em;
+}
+
+/* Container dos produtos com layout flexível e responsivo */
+.produtos {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+/* Estilo dos itens de produto com borda, padding e largura fixa */
+.item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: 200px;
+}
+
+/* Imagens dos produtos com largura total do item */
+.item img {
+    width: 100%;
+}
+
+/* Estilo do formulário com layout vertical e espaçamento entre os campos */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    max-width: 400px; /* Limita a largura do formulário */
+}
+
+/* Estilo do rodapé com fundo escuro e texto centralizado */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
